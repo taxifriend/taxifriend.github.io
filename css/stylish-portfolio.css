@@ -60,7 +60,7 @@ body {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 250px;
 }
 
 /* Side Menu */
@@ -249,7 +249,7 @@ footer {
 /* My */
 .text-tariff{
 	text-align: left;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .text-header{

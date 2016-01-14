@@ -42,11 +42,7 @@
             </li>
             <li>
                 <a href="#tariff" onclick = $("#menu-close").click(); >Тарифы</a>
-            </li>
-            <li>
-                <a href="#get-taxi" onclick = $("#menu-close").click(); >Заказать такси</a>
-            </li>
-			
+            </li>	
            <li>
                 <a href="#top" onclick = $("#menu-close").click(); >На верх</a>
             </li>
@@ -62,7 +58,6 @@
             <h2>Зачем просить друзей, если есть Taxi Frend.</h2>
             <br>
 			<a href="#tariff" class="btn btn-dark btn-lg">Тарифы</a>
-            <a href="#get-taxi" onclick="setURL(document.getElementById('yaFrame'))" class="btn btn-dark btn-lg">Вызвать такси</a>
         </div>
 	</span>	
     </header>
@@ -77,25 +72,239 @@
                     <h2>Наши тарифы</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3">
                             <div class="service-item">
                                 <span class="fa-stack fa-5x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-bicycle fa-stack-1x text-primary"></i>
+                                <i class="fa fa-bicycle fa-stack-1x text-primary" onclick="setURL()"></i>
                             </span>
                                 <h3>
                                     <strong>Эконом</strong>
                                 </h3>
-                                <ul class="text-tariff">
-									<li>199 руб. за первые 10 минут, далее 14 руб. минута;</li>
-									<li>подача и движение за МКАД 15 руб. за 1 км;</li>
-									<li>время бесплатного ожидания в городе 10 мин. далее 14 руб. минута;</li>
-									<li>время бесплатного ожидания в аэропорту 30 мин. далее 14 руб. минута</li>
-									</ul>
-                                <!-- <a href="#get-taxi" class="btn btn-light">Вызвать такси</a> -->
-                            </div>
+																				
+										<div class="container-fluid">
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>199 руб./15 мин. далее 14 руб./1мин.</li>
+														<li>Ожидание 10 мин. далее 14 руб./1мин.</li>
+														<li>Подача/ поездка за МКАД 15 руб./1 км.</li>
+													</ul>	
+												</div>
+											</div>
+										
+											<div class="row text-center">
+												<div class="col-md-12">
+													<strong>ТРАНСФЕР в Аэропорт</strong>
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+											
+												</div>
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													VKO
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЦАО
+												</div>
+												<div class="col-md-3">
+													950
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+												<div class="col-md-3">
+													950
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЗАО
+												</div>
+												<div class="col-md-3">
+													950
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													СЗАО
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+												<div class="col-md-3">
+													1050
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													САО
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+												<div class="col-md-3">
+													1050
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													СВАО
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+												<div class="col-md-3">
+													1050
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ВАО
+												</div>
+												<div class="col-md-3">
+													950
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮВАО
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+												<div class="col-md-3">
+													950
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮАО
+												</div>
+												<div class="col-md-3">
+													1050
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+												<div class="col-md-3">
+													900
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮЗАО
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+												<div class="col-md-3">
+													950
+												</div>
+												<div class="col-md-3">
+													800
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													600
+												</div>
+												<div class="col-md-3">
+													1600
+												</div>
+												<div class="col-md-3">
+													1400
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													1600
+												</div>
+												<div class="col-md-3">
+													-
+												</div>
+												<div class="col-md-3">
+													1500
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													VKO
+												</div>
+												<div class="col-md-3">
+													1400
+												</div>
+												<div class="col-md-3">
+													1500
+												</div>
+												<div class="col-md-3">
+													-
+												</div>
+											</div>											
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>Встреча в аэропорту + 150руб. к тарифу.</li>
+														<li>Ожидание в Аэропорту 30 мин. далее 14 руб./1 мин.</li>
+													</ul>	
+												</div>
+											</div>
+											
+											
+										</div>										
+                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3">
                             <div class="service-item">
                                 <span class="fa-stack fa-5x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -104,11 +313,230 @@
                                 <h3>
                                     <strong>Универсал</strong>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <!-- <a href="#get-taxi" class="btn btn-light">Вызвать такси</a> -->
+										<div class="container-fluid">
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>249 руб./15 мин. далее 14руб./1мин.</li>
+														<li>Ожидание 10 мин. далее 14 руб./1мин.</li>
+														<li>Подача/ поездка за МКАД 15 руб./1 км.</li>
+													</ul>	
+												</div>
+											</div>
+										
+											<div class="row text-center">
+												<div class="col-md-12">
+													<strong>ТРАНСФЕР в Аэропорт</strong>
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+											
+												</div>
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													VKO
+												</div>
+											</div>
+										<div class="row text-center">
+											<div class="col-md-3">
+												ЦАО
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												ЗАО
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												СЗАО
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+											<div class="col-md-3">
+												1150
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												САО
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+											<div class="col-md-3">
+												1150
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												СВАО
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+											<div class="col-md-3">
+												1150
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												ВАО
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												ЮВАО
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												ЮАО
+											</div>
+											<div class="col-md-3">
+												1150
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+											<div class="col-md-3">
+												1000
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												ЮЗАО
+											</div>
+											<div class="col-md-3">
+												1100
+											</div>
+											<div class="col-md-3">
+												1050
+											</div>
+											<div class="col-md-3">
+												900
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												SVO
+											</div>
+											<div class="col-md-3">
+												700
+											</div>
+											<div class="col-md-3">
+												1700
+											</div>
+											<div class="col-md-3">
+												1500
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												DME
+											</div>
+											<div class="col-md-3">
+												1700
+											</div>
+											<div class="col-md-3">
+												-
+											</div>
+											<div class="col-md-3">
+												1600
+											</div>
+										</div>
+
+										<div class="row text-center">
+											<div class="col-md-3">
+												VKO
+											</div>
+											<div class="col-md-3">
+												1500
+											</div>
+											<div class="col-md-3">
+												1600
+											</div>
+											<div class="col-md-3">
+												-
+											</div>
+										</div>
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>Встреча в аэропорту + 150руб. к тарифу.</li>
+														<li>Ожидание в Аэропорту 30 мин. далее 14 руб./1 мин.</li>
+													</ul>	
+												</div>
+											</div>
+											
+											
+										</div>										
+                                
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3">
                             <div class="service-item">
                                 <span class="fa-stack fa-5x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -117,11 +545,230 @@
                                 <h3>
                                     <strong>Комфорт</strong>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <!-- <a href="#get-taxi" class="btn btn-light">Вызвать такси</a> -->
+										<div class="container-fluid">
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>299 руб./15 мин. далее 16 руб./1мин.</li>
+														<li>Ожидание 10 мин. далее 16 руб./1мин.</li>
+														<li>Подача/ поездка за МКАД 20 руб./1 км.</li>
+													</ul>	
+												</div>
+											</div>
+										
+											<div class="row text-center">
+												<div class="col-md-12">
+													<strong>ТРАНСФЕР в Аэропорт</strong>
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+											
+												</div>
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													VKO
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЦАО
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЗАО
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													СЗАО
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+												<div class="col-md-3">
+													1250
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													САО
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+												<div class="col-md-3">
+													1250
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													СВАО
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+												<div class="col-md-3">
+													1250
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ВАО
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮВАО
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮАО
+												</div>
+												<div class="col-md-3">
+													1250
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+												<div class="col-md-3">
+													1100
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮЗАО
+												</div>
+												<div class="col-md-3">
+													1200
+												</div>
+												<div class="col-md-3">
+													1150
+												</div>
+												<div class="col-md-3">
+													1050
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													800
+												</div>
+												<div class="col-md-3">
+													1800
+												</div>
+												<div class="col-md-3">
+													1600
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													1800
+												</div>
+												<div class="col-md-3">
+													-
+												</div>
+												<div class="col-md-3">
+													1700
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													VKO
+												</div>
+												<div class="col-md-3">
+													1600
+												</div>
+												<div class="col-md-3">
+													1700
+												</div>
+												<div class="col-md-3">
+													-
+												</div>
+											</div>
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>Встреча в аэропорту + 150руб. к тарифу.</li>
+														<li>Ожидание в Аэропорту 30 мин. далее 16 руб./1 мин.</li>
+													</ul>	
+												</div>
+											</div>
+											
+											
+										</div>										
+                                
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-3">
                             <div class="service-item">
                                 <span class="fa-stack fa-5x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -130,17 +777,231 @@
                                 <h3>
                                     <strong>Бизнес</strong>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <!-- <a href="#get-taxi" class="btn btn-light">Вызвать такси</a> -->
+										<div class="container-fluid">
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>399 руб./15 мин. далее 25 руб./1мин.</li>
+														<li>Ожидание 10 мин. далее 25 руб./1мин.</li>
+														<li>Подача/ поездка за МКАД 30 руб./1 км.</li>
+													</ul>	
+												</div>
+											</div>
+										
+											<div class="row text-center">
+												<div class="col-md-12">
+													<strong>ТРАНСФЕР в Аэропорт</strong>
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+											
+												</div>
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													VKO
+												</div>
+											</div>
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЦАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЗАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													СЗАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													САО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													СВАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ВАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮВАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													ЮЗАО
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+												<div class="col-md-3">
+													2200
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													SVO
+												</div>
+												<div class="col-md-3">
+													1000
+												</div>
+												<div class="col-md-3">
+													3000
+												</div>
+												<div class="col-md-3">
+													3000
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													DME
+												</div>
+												<div class="col-md-3">
+													3000
+												</div>
+												<div class="col-md-3">
+													-
+												</div>
+												<div class="col-md-3">
+													3000
+												</div>
+											</div>
+
+											<div class="row text-center">
+												<div class="col-md-3">
+													VKO
+												</div>
+												<div class="col-md-3">
+													3000
+												</div>
+												<div class="col-md-3">
+													3000
+												</div>
+												<div class="col-md-3">
+													-
+												</div>
+											</div>
+											<div class="row text-left">
+												<div class="col-md-12">
+													<ul>
+														<li>Встреча в аэропорту + 300руб. к тарифу.</li>
+														<li>Ожидание в Аэропорту 30 мин. далее 25 руб./1 мин.</li>
+													</ul>	
+												</div>
+											</div>
+											
+											
+										</div>										
+                                
                             </div>
                         </div>
 					
                     </div>
-					<div class="row">
-						<div class="col-md-12 col-sm-12">
-							<a href="#get-taxi" onclick="setURL(document.getElementById('yaFrame'))" class="btn btn-light btn-lg">Вызвать такси</a>
-						</div>
-					</div>
                     <!-- /.row (nested) -->
                 </div>
                 <!-- /.col-lg-10 -->
@@ -148,13 +1009,7 @@
             <!-- /.row -->
         </div>
         <!-- /.container -->
-    </section>
-
-    <!-- Get taxi -->
-    <section id="get-taxi" class="map">
-		<iframe id="yaFrame" width="33%" height="40%" frameborder="0" src=""></iframe>
-    </section>
-    
+    </section>   
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -192,14 +1047,6 @@
         });
     });
 	loadIframe = 0;
-	function setURL(frame) {
-		var url = "https://request.api.rostaxi.org/7104e039e4e3a7395dd6c96d2e3d1618";
-		if (loadIframe == 0 ) {
-			frame.src = url;
-			loadIframe = 1;
-		}
-	}
-	
     </script>
 </body>
 
